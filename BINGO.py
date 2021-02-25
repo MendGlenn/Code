@@ -1,3 +1,5 @@
+'''//Pls suggest better ways for score conditioning//'''
+
 # BINGO SINGLE PLAYER(*)
 import random
  
@@ -13,6 +15,7 @@ def Grid():
       r = r + 1
     print()
 
+# SCORING CONDITIONS
 def Win():
   d=0
   if((A[0]==0) and (A[5]==0) and (A[10]==0) and (A[15]==0) and (A[20]==0)):
